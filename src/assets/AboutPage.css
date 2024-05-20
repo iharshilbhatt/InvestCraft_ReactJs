@@ -1,0 +1,72 @@
+/* AboutUs.css */
+.about-us-container {
+    padding: 40px;
+    background: #f8f9fa; /* Light grey background */
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .about-us-header {
+    text-align: center;
+    margin-bottom: 30px; /* Spacing between header and content */
+  }
+  
+  .about-us-content {
+    display: flex;
+    justify-content: space-around; /* Evenly spaced cards */
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    gap: 20px; /* Spacing between cards */
+  }
+  
+  .about-us-card {
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+  }
+  
+  .about-us-card:hover {
+    transform: scale(1.05); /* Enlarge on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
+  }
+  
+  .icon {
+    color: #007bff; /* Bootstrap primary color for consistency */
+  }
+  
+  .developer-image {
+    width: 80px; /* Small circular image */
+    height: 80px;
+    border-radius: 50%; /* Circular shape */
+    object-fit: cover; /* Ensures image maintains aspect ratio */
+    margin-bottom: 10px; /* Spacing */
+  }
+  
+  .cta-button {
+    margin-top: 20px; /* Adds space between text and button */
+    padding: 10px 20px;
+    background: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    transition: background 0.3s;
+  }
+  
+  .cta-button:hover {
+    background: #0056b3; /* Darker blue on hover */
+  }
+  
+  h1,
+  h2 {
+    color: #333; /* Dark text for readability */
+  }
+  
+  p {
+    color: #666;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
